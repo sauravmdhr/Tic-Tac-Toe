@@ -24,7 +24,14 @@ function playRound(playerSelection, computerSelection) {
   
   }
 
+function game()
+{
 let computerSelection = getComputerChoice();
 let playerSelection = prompt("Choose your weapon");
-console.log(computerSelection)
+console.log(computerSelection);
 console.log(playRound(playerSelection, computerSelection));
+}
+
+for(i=1; i<=5; i++){
+    game()
+}
